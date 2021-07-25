@@ -12,7 +12,7 @@ AZURE_SITE_NAME ?= nodeapp-$(shell git rev-parse --short HEAD)
 TEST_HOST ?= localhost:3000
 
 # Don't change
-SRC_DIR := src
+SRC_DIR := BusTicket Booking Management System (Node Js)
 
 .PHONY: help lint lint-fix image push run deploy undeploy clean test test-api test-report .EXPORT_ALL_VARIABLES
 .DEFAULT_GOAL := help
